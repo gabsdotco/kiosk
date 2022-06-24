@@ -31,6 +31,8 @@ const LoginPage: NextPageWithLayout = () => {
   const [userDontExists, setUserDontExists] = useState(false);
 
   const handleLogin = async () => {
+    setUserDontExists(false);
+
     const user = await getUserService(email);
 
     if (!user.data[0]) {

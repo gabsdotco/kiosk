@@ -1,5 +1,7 @@
 import axios, { AxiosResponse, Method } from 'axios';
 
+const API_URL = 'http://localhost:8080';
+
 interface ApiClientConfig<Data> {
   url: string;
   data?: Data;
@@ -15,6 +17,6 @@ export async function apiClient<Body, Response = null>(
     url,
     data,
     method,
-    baseURL: process.env.API_URL,
+    baseURL: API_URL,
   });
 }
