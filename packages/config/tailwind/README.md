@@ -1,1 +1,1 @@
-### @kisk/tailwind
+### @kiosk/tailwind

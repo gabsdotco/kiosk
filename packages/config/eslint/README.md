@@ -1,1 +1,1 @@
-### @kisk/eslint
+### @kiosk/eslint

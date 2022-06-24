@@ -1,1 +1,1 @@
-### @kisk/tsconfig
+### @kiosk/tsconfig

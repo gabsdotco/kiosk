@@ -1,1 +1,1 @@
-### @kisk/styles
+### @kiosk/styles
