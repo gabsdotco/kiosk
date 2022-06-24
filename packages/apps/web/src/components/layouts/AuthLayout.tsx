@@ -16,7 +16,7 @@ export const AuthLayout: FC<AuthLayoutProps> = ({ children, title }) => {
         <title>Fingermark - {title}</title>
       </Head>
       <Flex className="w-full h-full overflow-auto">
-        <Flex className="relative w-full h-full">
+        <Flex className="relative hidden w-full h-full sm:flex">
           <img
             alt="cover"
             src="/cover.jpg"

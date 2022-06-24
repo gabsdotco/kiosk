@@ -79,10 +79,18 @@ const LoginPage: NextPageWithLayout = () => {
         </FormControl>
       </Flex>
       <Flex justify="end" className="w-full gap-sm">
-        <Button variant="secondary" onClick={() => router.push('/register')}>
+        <Button
+          variant="secondary"
+          className="w-full sm:w-fit"
+          onClick={() => router.push('/register')}
+        >
           Register
         </Button>
-        <Button disabled={!email} onClick={() => handleLogin()}>
+        <Button
+          className="w-full sm:w-fit"
+          disabled={!email}
+          onClick={() => handleLogin()}
+        >
           Login
         </Button>
       </Flex>
